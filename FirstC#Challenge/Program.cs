@@ -1,4 +1,7 @@
-﻿using FirstC_Project;
+﻿
+
+
+using FirstC_Challenge;
 
 namespace FirstC_Challenge
 
@@ -7,19 +10,13 @@ namespace FirstC_Challenge
     {
         public static void Main(string[] args)
         {
+            Person persons = new Person();
 
-            Person person = new Person("Dette er en besked");
-
-
-            Console.WriteLine(person);
+            Console.WriteLine(persons.ToString());
         }
 
     }
 
 }
-
-
-
-
 
 
