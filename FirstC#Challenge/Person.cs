@@ -12,7 +12,7 @@ namespace FirstC_Challenge
 
         public Person() 
         {
-            Persons = new List<string>() { "Hello", "Hans" , " ", "Hansen", null };
+            Persons = new List<string>() { "Hello", "Hans" , " " , " ", "Hansen", null };
         }
         public IEnumerable<string?>? Persons { get; set; }
 
