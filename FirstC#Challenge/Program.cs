@@ -16,7 +16,7 @@ namespace FirstC_Challenge
            
             foreach (var person in persons.Persons)
             {
-                if (String.IsNullOrWhiteSpace(person))
+                if (!String.IsNullOrWhiteSpace(person))
                 {
                     Console.WriteLine(person);
                 }
