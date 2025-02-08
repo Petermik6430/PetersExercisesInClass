@@ -6,7 +6,7 @@
     <RootNamespace>JavaToC_</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>JavaToC_.Model.Manager</StartupObject>
+    <StartupObject>JavaToC_.Model.Program</StartupObject>
   </PropertyGroup>
 
 </Project>

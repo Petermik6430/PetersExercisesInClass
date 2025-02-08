@@ -33,7 +33,7 @@ namespace FirstC_Project
 
             string? str = $"{HelloStr}";
 
-            if (!String.IsNullOrWhiteSpace(str))
+            if (String.IsNullOrWhiteSpace(str))
             {
 
                 return "error";
