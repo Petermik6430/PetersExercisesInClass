@@ -18,17 +18,9 @@ namespace FirstC_Challenge
 
         public override string? ToString()
         {
-           
-            StringBuilder sb = new StringBuilder();
-            foreach(var person in Persons)
-            {
-                if (!String.IsNullOrWhiteSpace(person))
-                {
-                   sb.Append(person).Append(" ");
-                }
-              
-            }
-            return sb.ToString().Trim();
+
+            string str = $"{Persons}";
+            return str;
         }
     }
 }

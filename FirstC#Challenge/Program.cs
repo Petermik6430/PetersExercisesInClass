@@ -2,6 +2,7 @@
 
 
 using FirstC_Challenge;
+using System.Text;
 
 namespace FirstC_Challenge
 
@@ -12,7 +13,17 @@ namespace FirstC_Challenge
         {
             Person persons = new Person();
 
-            Console.WriteLine(persons.ToString());
+           
+            foreach (var person in persons.Persons)
+            {
+                if (!String.IsNullOrWhiteSpace(person))
+                {
+                    Console.WriteLine(person);
+                }
+
+            }
+
+
         }
 
     }
