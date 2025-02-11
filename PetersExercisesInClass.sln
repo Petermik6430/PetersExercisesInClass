@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstC#Challenge", "FirstC#
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JavaToC#", "JavaToC#\JavaToC#.csproj", "{8AE4FFA8-32FC-4E95-ADE1-B6B946C49FAB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintAllenFirst", "PrintAllenFirst\PrintAllenFirst.csproj", "{3FCC69C9-37E1-4698-8521-B6C7B5D60051}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "What is printed, explain session 2", "What is printed, explain session 2\What is printed, explain session 2.csproj", "{574BD141-54FD-42CE-9F37-BB3B1EF968DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{8AE4FFA8-32FC-4E95-ADE1-B6B946C49FAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8AE4FFA8-32FC-4E95-ADE1-B6B946C49FAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8AE4FFA8-32FC-4E95-ADE1-B6B946C49FAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FCC69C9-37E1-4698-8521-B6C7B5D60051}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FCC69C9-37E1-4698-8521-B6C7B5D60051}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FCC69C9-37E1-4698-8521-B6C7B5D60051}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FCC69C9-37E1-4698-8521-B6C7B5D60051}.Release|Any CPU.Build.0 = Release|Any CPU
+		{574BD141-54FD-42CE-9F37-BB3B1EF968DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{574BD141-54FD-42CE-9F37-BB3B1EF968DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{574BD141-54FD-42CE-9F37-BB3B1EF968DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{574BD141-54FD-42CE-9F37-BB3B1EF968DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
