@@ -18,7 +18,7 @@ namespace JavaToC_
         }
         public string? Name { get; set; }
 
-        public List<string?>? FaverouriteWord { get; set; }
+        public List<string?> FaverouriteWord { get; set; }
 
         public void AddFavouriteWord(string newWord)
         {
