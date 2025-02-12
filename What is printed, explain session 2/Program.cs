@@ -27,6 +27,11 @@ namespace What_Is_Printed__Explain_Session_2
             Person p2 = new Person("Hans", "Hovedvejen 1");
 
             Console.WriteLine("2. Variables are equal: " + (p1 == p2));
+
+            // I dette tilfælde peger objektet på sin egen hhukommelses placering og derfor vil den retunrere true
+            Console.WriteLine("3. Et objekt samlignet med hinanden " + (p1 == p1));
         }
+
+        // En string er immutable. Det vil sige den opretter en ny string hver gang
     }
 }
