@@ -7,7 +7,7 @@ using Exercise_Generics.Generic2_NonGeneric.Model;
 
 namespace Exercise_Generics.Generic2_NonGeneric
 {
-    internal class OrderedPairCity
+    internal class OrderedPairCity : IPairable
     {
         public OrderedPairCity(City first, City second)
         {

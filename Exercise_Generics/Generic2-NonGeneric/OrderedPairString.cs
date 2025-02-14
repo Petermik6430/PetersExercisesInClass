@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Exercise_Generics.Generic2_NonGeneric
 {
-    internal class OrderedPairString
+    internal class OrderedPairString : IPairable
     {
         public OrderedPairString(string first, string second)
         {
