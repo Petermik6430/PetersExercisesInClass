@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectInit", "ObjectInit\Ob
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualAbstractStart", "VirtualAbstractStart\VirtualAbstractStart.csproj", "{D865AC88-F90D-4392-A8C9-3CB2D07227EA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfacesAndLists", "InterfacesAndLists\InterfacesAndLists.csproj", "{2D39B6A5-9D21-41FD-9E19-B27AA1617141}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{D865AC88-F90D-4392-A8C9-3CB2D07227EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D865AC88-F90D-4392-A8C9-3CB2D07227EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D865AC88-F90D-4392-A8C9-3CB2D07227EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D39B6A5-9D21-41FD-9E19-B27AA1617141}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D39B6A5-9D21-41FD-9E19-B27AA1617141}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D39B6A5-9D21-41FD-9E19-B27AA1617141}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D39B6A5-9D21-41FD-9E19-B27AA1617141}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
