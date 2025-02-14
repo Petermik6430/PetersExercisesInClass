@@ -5,7 +5,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>Exercise_Generics.Generic2_NonGeneric.Manager</StartupObject>
+    <StartupObject>Exercise_Generics.Generic2_GenericVersion.Manager</StartupObject>
   </PropertyGroup>
 
 </Project>
