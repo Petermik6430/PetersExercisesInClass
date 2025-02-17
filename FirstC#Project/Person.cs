@@ -14,6 +14,7 @@ namespace FirstC_Project
         {
             HelloStr = helloStr;
         }
+        //test ændring
 
         public string? HelloStr {  get; set; }
 
