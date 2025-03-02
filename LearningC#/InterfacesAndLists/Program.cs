@@ -16,16 +16,20 @@ namespace InterfacesAndLists
 
             List<IInvestment> investments = new List<IInvestment>();
 
-            House house = new House("ABC", 200, 200000, "Good", "Nice house");
-            House house1 = new House("CBA", 100, 400000, "Good", "Nice house");
-            Boat boat = new Boat(10, 10000, "Good", "Fast track boat", 2010);
+            House house = new House("ABC", 200, 200000, Conditions.Good, "Nice house");
+            House house1 = new House("CBA", 100, 400000, Conditions.Awful, "dirty house");
+            Boat boat = new Boat(10, 10000, Conditions.Perfect, "Fast track boat", 2010);
+            Painting painting = new Painting("Picasso", "Mona Lisa", 2000, 100000, Conditions.Perfect);
+            Boat boat1 = new Boat(-10, 10000, Conditions.Perfect, "Fast track boat", 2010);
 
             // Add the house and the boat to the list
 
             investments.Add(house);
             investments.Add(house1);
-
             investments.Add(boat);
+            investments.Add(painting);
+            investments.Add(boat1);
+
 
 
             // Loop through the list and print the investment summary
@@ -43,23 +47,26 @@ namespace InterfacesAndLists
             //    Console.WriteLine("Price: " + personboat.PriceCalculate());
             //}
 
+            //foreach (IInvestment investment in investments)
+            //{
+            //    if(investment is House)
+            //    {
+            //        House houseInvestment = (House)investment;
+            //        Console.WriteLine("Hosue: " + houseInvestment.Address);
+            //        Console.WriteLine("Area: " + houseInvestment.SquareMeters);
+            //        Console.WriteLine("Price: " + houseInvestment.SquareMeterPrice + "\n");
+            //    }
+            //    else if(investment is Boat)
+            //    {
+            //        Boat boatInvestment = (Boat)investment;
+            //        Console.WriteLine("Boat: " + boatInvestment.Description);
+            //        Console.WriteLine("Length: " + boatInvestment.Length);
+            //        Console.WriteLine("Price: " + boatInvestment.PriceCalculate() + "\n");
+            //    }
+
             foreach (IInvestment investment in investments)
             {
-                if(investment is House)
-                {
-                    House houseInvestment = (House)investment;
-                    Console.WriteLine("Hosue: " + houseInvestment.Address);
-                    Console.WriteLine("Area: " + houseInvestment.SquareMeters);
-                    Console.WriteLine("Price: " + houseInvestment.SquareMeterPrice + "\n");
-                }
-                else if(investment is Boat)
-                {
-                    Boat boatInvestment = (Boat)investment;
-                    Console.WriteLine("Boat: " + boatInvestment.Description);
-                    Console.WriteLine("Length: " + boatInvestment.Length);
-                    Console.WriteLine("Price: " + boatInvestment.PriceCalculate() + "\n");
-                }
-               
+                Console.WriteLine(investment.InvestSummary() + Environment.NewLine);
             }
 
 

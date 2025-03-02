@@ -10,6 +10,6 @@ namespace InterfacesAndLists.Investment
     {
         public abstract string InvestSummary();
 
-        public abstract int PriceCalculate();
+        public abstract int? PriceCalculate();
     }
 }

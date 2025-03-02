@@ -10,7 +10,7 @@ namespace InterfacesAndLists.Investment
     {
 
         // Constructor
-        public House(string inAddress, int inSquareMeters, int inSquareMeterPrice, string inCondition, string inDescription) 
+        public House(string inAddress, int inSquareMeters, int inSquareMeterPrice, Conditions inCondition, string inDescription) 
         { 
             Address = inAddress; 
             SquareMeters = inSquareMeters; 
@@ -22,12 +22,12 @@ namespace InterfacesAndLists.Investment
         public string Address { get; set; } 
         public int SquareMeters { get; set; } 
         public int SquareMeterPrice { get; set; } 
-        public string Condition { get; set; } 
+        public Conditions Condition { get; set; } 
         public string Description { get; set; } 
 
 
         /* Methods */ 
-        public int PriceCalculate() 
+        public int? PriceCalculate() 
         { 
             int foundPrice = SquareMeters * SquareMeterPrice;
             return foundPrice; 
